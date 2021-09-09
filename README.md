@@ -1,0 +1,2 @@
+# orvosi_vizsgalatok_kiertekelesenek_mernokinformatikai_alapjai
+Az orvosi informatika alapfogalmai
