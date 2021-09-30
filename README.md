@@ -114,4 +114,26 @@ blokkosítás:
 
 ![itti vs pp](https://pbs.twimg.com/media/D1BTV9CWsAAiJKp.jpg)
 
+## EA4
+
+![kaplan meier plot censoring](https://miro.medium.com/max/1400/1*ATbW_NU5GMtTaCCPpfkzEA.png)![kaplan meier plot censoring](https://www.researchgate.net/profile/Avijit-Hazra-2/publication/326232846/figure/fig2/AS:666983502737413@1536032667905/A-basic-Kaplan-Meier-survival-plot-That-censoring-is-indicated-in-this-plot-by-small.png)
+
+### Cox regresszió
+> kihat a túlélésre: *nem*, *kor*, *stb*
+>
+> A végső arány amit kapunk  a hazard ratio
+>
+> ![hazard ratio on cox chart](https://lh3.googleusercontent.com/proxy/sj9b9pCSazyq0kXtnm7jXvOioPY-kCRjDgEcbkfhox2pE-6SNZVjL0PfH9Y4fkNcesBT7x6Q__4HjBlQesxpoMCHvLvhWQ)
+
+### Lead time bias
+> ![Lead time chart](https://i2.wp.com/first10em.com/wp-content/uploads/2018/06/777px-Lead_time_bias.png?fit=777%2C224&ssl=1)
+>
+> mennyien halnak meg amúgy is miután hatott a kezelés
+
+### Immortal time bias
+> egy kezelés amire várni kell valamennyit
+>
+> ![immortal time ](https://www.bmj.com/content/bmj/340/bmj.b5087/F2.large.jpg)
+
+
 
