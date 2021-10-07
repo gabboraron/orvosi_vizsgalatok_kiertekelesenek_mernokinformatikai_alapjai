@@ -157,12 +157,11 @@ aszignifikáns különbségek mögött fontos kérdés,hogy hány emberen végze
 
 **konfidencia intervallum**: pontebcsléshez hozzárendeltintervallum, pl:*95%os konfidencia intervallumon az érték 95%al beleesik a keresett csoportba*
 
-
-> *filmmel kapcsolatos kérdések:
-> - milyen új dolgot hallottál
-> - hogyan és mi alapján történik döntéshozatal 1-1 kezelés kapcsán
-> - hogyan zajlik döntéshozatal MAgarországon
-> - mi az leőnye/hátránya
-> - milyne kezelés lehet kiugróan költségkímélő
-> - hogy döntöttél volna szavazáskor
-> - mi nem hangzot el a filmben?*
+> *filmmel kapcsolatos kérdések:*
+> - *milyen új dolgot hallottál*
+> - *hogyan és mi alapján történik döntéshozatal 1-1 kezelés kapcsán*
+> - *hogyan zajlik döntéshozatal MAgarországon*
+> - *mi az leőnye/hátránya*
+> - *milyne kezelés lehet kiugróan költségkímélő*
+> - *hogy döntöttél volna szavazáskor*
+> - *mi nem hangzot el a filmben?*
