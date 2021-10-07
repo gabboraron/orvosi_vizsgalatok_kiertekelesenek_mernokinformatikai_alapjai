@@ -118,6 +118,9 @@ blokkosítás:
 
 ![kaplan meier plot censoring](https://miro.medium.com/max/1400/1*ATbW_NU5GMtTaCCPpfkzEA.png)![kaplan meier plot censoring](https://www.researchgate.net/profile/Avijit-Hazra-2/publication/326232846/figure/fig2/AS:666983502737413@1536032667905/A-basic-Kaplan-Meier-survival-plot-That-censoring-is-indicated-in-this-plot-by-small.png)
 
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Km_plot.jpg/250px-Km_plot.jpg)
+
 ### Cox regresszió
 > kihat a túlélésre: *nem*, *kor*, *stb*
 >
@@ -129,11 +132,37 @@ blokkosítás:
 > ![Lead time chart](https://i2.wp.com/first10em.com/wp-content/uploads/2018/06/777px-Lead_time_bias.png?fit=777%2C224&ssl=1)
 >
 > mennyien halnak meg amúgy is miután hatott a kezelés
+>
+> Jól látszik, ohgy attól, hogy hamarabb detektálom nem növeli meg az életminőséget.
 
 ### Immortal time bias
 > egy kezelés amire várni kell valamennyit
 >
 > ![immortal time ](https://www.bmj.com/content/bmj/340/bmj.b5087/F2.large.jpg)
 
+## EA5
+> Ha van egy informácink a fluktuációról akkor tudunk egy mintaelem számot szmolni, és tudjuk számolni mennyi az esély arra, hogy random-e a fluktuáció?
+
+aszignifikáns különbségek mögött fontos kérdés,hogy hány emberen végzett vizsgálat alapján.
+
+- p érték, elütés, adatkezelés nagyobb valószínűséggel add false pozitiveot mint a mintavételi hibák
+
+> binomiális adatgörbénél a nagyság melett a bekövetkezési esély is számít. Ha ritka eseméynt nézek akkor nem nagy a különbség kettő között törvény szerűen.
+
+- **klinikai signifikancia:** tartalmi eltérés
+- **p:** mértékegység nélküli különbség
+
+- 3mmHG-al csökkentett magyasvérnyomás már populáció szinten eloszlása jelentős 
+- pupuláció szinten az ami egyéni szinten mérési hibaként is elkönyvelhető jelentős lehet
+
+**konfidencia intervallum**: pontebcsléshez hozzárendeltintervallum, pl:*95%os konfidencia intervallumon az érték 95%al beleesik a keresett csoportba*
 
 
+> *filmmel kapcsolatos kérdések:
+> - milyen új dolgot hallottál
+> - hogyan és mi alapján történik döntéshozatal 1-1 kezelés kapcsán
+> - hogyan zajlik döntéshozatal MAgarországon
+> - mi az leőnye/hátránya
+> - milyne kezelés lehet kiugróan költségkímélő
+> - hogy döntöttél volna szavazáskor
+> - mi nem hangzot el a filmben?*
