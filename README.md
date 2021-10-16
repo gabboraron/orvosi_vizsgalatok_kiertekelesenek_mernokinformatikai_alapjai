@@ -165,3 +165,64 @@ aszignifikáns különbségek mögött fontos kérdés,hogy hány emberen végze
 > - *milyne kezelés lehet kiugróan költségkímélő*
 > - *hogy döntöttél volna szavazáskor*
 > - *mi nem hangzot el a filmben?*
+
+## EA6 ~ regression to the mean
+- a biológiai folyamatok fluktuiálnak
+- ezkenek lehet trendje
+- ha vágok egyet akkor az, ha egy extrém pontnál vágom el akkor azok a megigyelések amik alatta vannak közelebb lesznek az átlaghoz.
+
+![](https://ars.els-cdn.com/content/image/1-s2.0-S0735109716351099-gr6.jpg)
+
+Ha egy beteg állapotot nézünk akkor az minidg egy kicsit extrém, tehát ha beteg akkor az ő bináris állapotát valamilyen folytonos mennyiségből származtatt bináris álllapotokra vonatkoztatjuk.
+
+*Pl:*
+- *vérnyomás*
+- *depresszió*
+- *fájdalom*
+
+A variabilitással mérhetjük az időbeli változását
+
+## placebo hatás
+> no intervention = regression to the mean"
+>
+> ha lemérek egy csoportot és nincs utána különbség akkor jelenik meg a *regression to the mean*
+>
+> ha placebo kontroll csoportot adok meg akkor a *placebo hatás*hoz hozzáadódik a *regression to the mean*
+>
+> ha van egy kezelt kontroll csoport akor azoknál a *kezelés hatása* is megjelenik
+
+### fontos-e a reprezentativitás?
+- nem kell reprezentatív legyen a minta ahhoz, hogy egy kísérleti eredmény számszerűleg valid legyen**!**
+- ha egy statisztikai kérdést nézünk populációra vonatkozóan akkor annak egyeznie kell az általunk elvárt populációhoz
+
+**DE**
+
+> #### Mitől reprezentatív a statisztikai felmérés:
+> - ha a populációt nem akarjuk másiokhoz hasonlítani
+
+> #### Kevésbé reprezentatív:
+> - irreleváns a hajszíne, stb
+> - releváns: a kora, elhízás, neme, stb => ez a kockázata
+>
+> a kockázata másmilyen, mint a mi áltlaunk mért populáció akkor ***nem reprezetnatív a mintánk egészségügyi szmepontból***  
+
+***Minden statisztikai vizsgálat a vizsgált szmepont alapjn kell reprezentatív legyen.***
+
+Risk ratio: mekkora esélyem van a másik csoportban meggyógyulni, azaz a `treated/control`:  `megtörtént/1`
+odds ration: mekkora esélyem arra, hogy odds skálán meggyógyuljak `p/(1-p)`, azaz kiszámolom ezt a törtet mindkét csoportra majd a kettőt elosztjuk `megtörtént/(1-megtörtént)`
+
+![odds vs risk](https://assets.cureus.com/uploads/figure/file/138481/lightbox_65ee62a0db3611eaafa31b2789baa093-fig-1-odds-vs-prob.png)
+
+ARR = absolute risk reduction =  a két risket kivonom egymásból
+RD = risk differnece
+
+A kezelés odds ratioja átvihető egyik populációról másikra!
+
+Ha kontextusa más a mérésnek és a viszonyított populációnak, így más lesz a végeredmény.
+
+Ha a populációban jelentős a különbésg valamilyen téren akkor jó eyélel nem lesz megfelelő egy másik populációra, *pl: ezért más a koncnetráció megy más génállományú betegekbe*
+
+A nem reprezentativitás a cska a háttérkokckázat szempontjából számít.
+
+> *zh kérdés Mi a három hatás ami megjelenhet a csoportoknál: regression to the mean, placebo hatás, kezelés hatása*
+> *kivétel: interakció, más a populáció, más a kezelés*
