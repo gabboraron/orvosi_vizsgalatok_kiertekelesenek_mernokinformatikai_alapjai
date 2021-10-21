@@ -226,3 +226,7 @@ A nem reprezentativitás a cska a háttérkokckázat szempontjából számít.
 
 > *zh kérdés Mi a három hatás ami megjelenhet a csoportoknál: regression to the mean, placebo hatás, kezelés hatása*
 > *kivétel: interakció, más a populáció, más a kezelés*
+
+## EA7
+https://vimeo.com/4796083
+
