@@ -8,6 +8,12 @@
 > 
 > ezek alapján megajánlott jegy ha ezek nincsennek meg akkor vizsga
 
+> - nov 4 konzultacio
+> - nov 11zh
+> - nov 18 rektori szünet
+> - előadások part I - clinical trial, observational study
+> - előadások part II
+> - dec 9 pót zh.
 
 # EA2
 ## Bizonyítékokon alapuló orvoslás
@@ -229,4 +235,56 @@ A nem reprezentativitás a cska a háttérkokckázat szempontjából számít.
 
 ## EA7
 https://vimeo.com/4796083
+
+## EA8
+### Klinikai kíséreletek és vizsgálatok protokolljai
+A protpkoll a kísérlet írásos terve ami mindenre megszületik a kísérlettel kapcsolatban. Ezzel lehet pályázni kísérletekhez pénzekre. 
+
+A tervel illik transzparensnek lenni, ez íratlan szabály. 
+
+- ez a legfrisseb verzió-e?
+- milyen változtatás született a verziók között?
+- good clinical prctice filozófia követése
+  - ***good clinical prctice:*** *Egy egszésgügyi leírás csomag, amiben protokollok vannak csomagokba gyűjtve. *
+- A bevezető fontos, főleg olyanoknak akiknek nincs az adott szakmában közvetlen háttértudásuk. A  
+- mi a társadalmi fontossága? Mennyi embert érint, érinteni fog, stb?
+- hány nap kórházi ellátás, mennyi embert érint, stb?
+- mit érhetünk el?
+- hol és mennkora kontrollcsoportunk van?
+- risk assesment az etikai bizottság felé, amennyiben érintett a kérdés, pl halálozás esetén
+- trial design: minnél szélesebb legyen, hogy a végeredmény jól kezelhető legyen.
+  - kizáró kritériumok: kor, terhesség, alkoholizmus stb
+  - a beeg legyen tényleg beteg
+  - stopping rules: DMEC - TSC dönt, hogy helyes-e a kísérlet
+    - recruitment nem jön össze
+    - biztonsági okok
+  - kezelések: bemutatja mondjuk egy gyógyszer hatásait, lefolyását/stb
+    - mi számít tényleg kezelésnek és miképp lesz mérve?
+  - végpontok: megfogalmazza a várt kimeneteket
+  - mellékhatás: 
+    - kedvezőtlen esemény (AE), nem kell közvetlen kapcsolatban legyen a kezeléssel, ok-okozati összefüggés van-e azt később döntik el. valami betegésgre jellemző eseméynt lehet, hogy nem kell feltöntetni, ezt is itt jegyzik meg.
+    - fontos kedvezőtlen esemény (SAE) azonnal jelenteni kell a hatóságoknak, akár halállal is járó mellékhatás lehet
+  - protokoll: vannak-e farmatokinetikai mérések.
+    - ha csak nem kifejezetten ezzel foglalkozunk akkor a statisztikai szempontból nem lényeges
+- vizit leírása
+- statisztikai összefoglaló: milyen módszert alkalmaztak és hogy mérték, mi van a hiáynzó adatokkal 
+- betegek infomrálása, stb.
+
+### Vakosítás
+> ![](https://www.researchgate.net/profile/Marjan-Hagenzieker/publication/249313828/figure/fig1/AS:298361723867141@1448146386608/Calculation-of-odds-ratios-OR-and-relative-risk-RR-derived-from-Hels-et-al-2011.png) 
+>
+> kettő között egynelőség akkor áll fenn ha egy
+
+Különböző szórások összehasonlítása:
+![](https://www.nlm.nih.gov/nichsr/stats_tutorial/images/Section2Module7HighLowStandardDeviation.jpg)![](https://cdn.scribbr.com/wp-content/uploads/2020/09/Job-satisfaction-ratings-of-three-groups.svg)
+
+> Első szintű vakosítás: a beteg ne tudjon arról mit kap
+> 
+> Kettős vak a vizsgálat: a gyógyszertátban aki átadja a gógyszert ne tudja mit ad át! De az orvos, és a kezelő szeélyzet se tudja
+> 
+> Hármas vakosítás: a statisztikus se tudja ki milyen csoporthoz tartozik.
+
+- 1995 számít a vakosítás
+- 200 nem számít
+- 2001 számít
 
