@@ -70,7 +70,7 @@ blokkosítás:
 - ritka, hosszú távú hatásokat is megfigylehet
 
 > **[Nun study](https://en.wikipedia.org/wiki/Nun_Study)**
-> - majdnem 700 amerikában élő katolikus apáca felajánlotta, hogy az agyukat szövetttani vizsgálatoknak ki lehet tenni. Ezáltla egy homogén csport, a vizsgálat elindult és összehasonlították neuropatológiai szüvetben
+> - Majdnem 700 amerikában élő katolikus apáca felajánlotta, hogy az agyukat szövetttani vizsgálatoknak ki lehet tenni, ezáltal egy homogén csoportot képezve. A vizsgálat elindult, és összehasonlították a tüneteket neuropatológiai szövetekkel.
 > - Ez egy esetkontroll vizsgálat, retrospektív, cohorttal.
 >
 > Boncolás után találtak olyan eseteket ahol erős Alzheimer társult ép agyi szövetekkel, illetve erősen roncsolt szövetek előzetes tünetek nélkül.
@@ -132,7 +132,7 @@ blokkosítás:
 >
 > A végső arány amit kapunk  a hazard ratio
 >
-> ![hazard ratio on cox chart](https://lh3.googleusercontent.com/proxy/sj9b9pCSazyq0kXtnm7jXvOioPY-kCRjDgEcbkfhox2pE-6SNZVjL0PfH9Y4fkNcesBT7x6Q__4HjBlQesxpoMCHvLvhWQ)
+> ![hazard ratio on cox chart](https://www.researchgate.net/publication/341746353/figure/download/fig4/AS:897727533678599@1591046331701/Univariate-Cox-regression-analysis-of-differentially-expressed-autophagy-related-genes.png)
 
 ### Lead time bias
 > ![Lead time chart](https://i2.wp.com/first10em.com/wp-content/uploads/2018/06/777px-Lead_time_bias.png?fit=777%2C224&ssl=1)
