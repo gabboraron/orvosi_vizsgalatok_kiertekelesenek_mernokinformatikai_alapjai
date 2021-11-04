@@ -3,47 +3,53 @@
 
 > **Követelmények:**
 > 
-> - beadandó: orvosi cikk összefoglalaása és prezentálása is
+> - beadandó: 2000 szavas összefoglaló egy dokumentumfilmről
+> - prezentáció: orvosi cikk prezentálása 10 percben + 5 perc kérdések
 > - zh
 > 
-> ezek alapján megajánlott jegy ha ezek nincsennek meg akkor vizsga
+> ezek alapján megajánlott jegy, ha ezek nincsenek meg, akkor vizsga
 
-> - nov 4 konzultacio
-> - nov 11zh
-> - nov 18 rektori szünet
-> - előadások part I - clinical trial, observational study
-> - előadások part II
-> - dec 9 pót zh.
+> - nov. 4 konzultáció
+> - nov. 11 zh
+> - nov. 18 rektori szünet
+> - nov. 25 előadások part I - clinical trial, observational study
+> - dec. 2 előadások part II
+> - dec. 3 videó összefoglaló beadandó határidő
+> - dec. 9 pót zh
 
-# EA2
-## Bizonyítékokon alapuló orvoslás
+## EA2
+### Bizonyítékokon alapuló orvoslás
+
+**Részei:**
+- expozíció (adott)
+- oksági kapcsolat (keressük)
+- végpont (választott)
+
 **Nehézségek:**
 - sztohasztikus értékek: statisztika, stb
 - a következményei nem azonnaliak
-- ismeretlen mchanikus komponensek: nehezen mérhető, nehezentanulmányozható területeken, pl biokémia
+- ismeretlen mechanikus komponensek: nehezen mérhető, nehezen tanulmányozható területeken, pl. biokémia
 - erős hitvilág
 - következmények: biztonság, monitorozás
 
-**Vizsgálatok szentháromsága:**
-- expozíció
-- kimenet
-- ezek között milyen ok-okotati kapcsolat van?
-
 *pl: - A vérnyomás csökkentő csökkenti-e a vérnyomást?
-        - Császármetszésnöveli-e az I. típusú diabétesz kialakulását?*
+        - Császármetszés növeli-e az I. típusú diabétesz kialakulását?*
 
 **Confounding**
-![császármetszés és más hatások kapcsolata az egyes típusú diabéteszre](https://www.researchgate.net/publication/348707397/figure/fig1/AS:990049109815296@1613057510555/Directed-Acyclic-Graph-theoretical-model-of-causal-association-between-childbirth-type_Q320.jpg)
-Ha azt szertnénk nézni, hogy a császármetszés milyen kapcsoaltban áll a születendő gyermek 1. típusú diabéteszével? Ha cserélgetjük ezeket akkor is megfeleltethetőek egymásnak, ezért confounding van.
 
-**randomizáció**
-- a célunk, hogy a két elkülönített csoport csak a vizsgált célban különbözzön, ne legyen nemi/kor/stb alapú egyéb különbség, akkor sem, ha pl öszesen 30 nő és 2 férfit osztunk szét.
-- a kísérleteket vakosítjuk, ha tudjuk, hogy a betegek ne tudják melik csoportba kerültek.
-- ha teljesen random allokállom a cspoprtokat,akkor előfordulhat, hogy mind egy csoportba kerül!
+![cofounding](https://www.healthknowledge.org.uk/sites/default/files/documents/elearning/epidemiologyp/rcbces/Exposure%20Outcome.jpg)
+- Cofounder: expozíciót és kimenetet is befolyásoló tényező
+- Predictor: csak a kimenetre hat (a csoportok randomizációja miatt)
+- Cofounding-probléma: Ha azt szertnénk nézni, hogy a császármetszés milyen kapcsolatban áll a születendő gyermek I. típusú diabéteszével? Ha cserélgetjük ezeket akkor is megfeleltethetőek egymásnak.
 
-![randomizáció](https://emj.bmj.com/content/emermed/20/2/164/F1.large.jpg)
+**Randomizáció**
+- A célunk, hogy a két elkülönített csoport csak a vizsgált célban különbözzön, ne legyen nemi/kor/stb alapú egyéb különbség, akkor sem, ha pl öszesen 30 nő és 2 férfit osztunk szét.
+- A kísérleteket vakosítjuk, ha tudjuk, hogy a betegek ne tudják melik csoportba kerültek.
+- Ha teljesen random allokállom a csoportokat, akkor előfordulhat, hogy mind egy csoportba kerül!
 
-**oksági kapcsolat:*** Az expozíciónál kitett vagy nem kitett a két tényező
+<img src="https://emj.bmj.com/content/emermed/20/2/164/F1.large.jpg" width=50% height=50%>
+
+**Oksági kapcsolat*** Az expozíciónál kitett, vagy nem kitett a két tényező.
 
 blokkosítás:
 //Statában
@@ -92,33 +98,36 @@ blokkosítás:
 ![hierarcy of studies](https://s2.studylib.net/store/data/005488388_1-d55c7bb53c27169c2e8c7771914750a2.png)
 
 ### Gyógyszerfejlesztés fázisai
-- pre-clinical research and development
-  - ![phase of drug  development](https://www.phrma.org/-/media/Project/PhRMA/PhRMA-Org/PhRMA-Org/Teaser-Image/Clinical-Trial-Chart.jpg?w=768&hash=847BFF91FAFFF09919D099FC8295AE18)
-- **1-4 fázis van**
-  - **1.**
+![phase of drug  development](https://www.phrma.org/-/media/Project/PhRMA/PhRMA-Org/PhRMA-Org/Teaser-Image/Clinical-Trial-Chart.jpg?w=768&hash=847BFF91FAFFF09919D099FC8295AE18)
+- Pre-clinical research and development
+  - **1. fázis**
     - biztonságos-e a készítmény
     - kontrollált
     - gyakori mellékhatás
     - a 3 beteg egy csoportban jelemző a területre
     - dózis vizsgálat
-  - **2.**
-    - a maximum dózis meghatározása
+  - **2. fázis**
+    - a maximum dózis meghatározás
     - a betegek nem egyszerre kapják a gyógszert
     - nincs kontroll (nem érdekel, hogy hánynak-e)
-  - **3.**
+  - **3. fázis**
     - van kontrollcsoport
-    - törzskönvezés
+    - törzskönyvezés
     - engedélyezés folyamata
-  - **4.**
-    - már kinn van a piacon
-    - hosszútávú mellékhaatások mérése
-    - engedélyezett  
-- clinical research and development
-- Átszivárgás kontroll csoportból kezelt csoportba
-  - **per protocol:** van egy mintám amit randomizálok `A` és `B` csoportba, A protokollal azt mondjuk, hogy az adott csoportban a kezelést úgy hasonlítjuk össze, hogy ahol tényleg megtörtént és úgy történ meg ahoy le van írva, és az alapján úgyabb két-kt csoportot alkotunk 
-  - **intention to treat:** nem vesszük figyelembe a, hogy mi trörtént a két csoportban, csak az egyiket választjuk fő elemzésnek és összehasonlítjuk a másikkal
+  - **4. fázis**
+    - már kint van a piacon
+    - hosszútávú mellékhatások mérése
+    - engedélyezett
 
-![itti vs pp](https://pbs.twimg.com/media/D1BTV9CWsAAiJKp.jpg)
+- Clinical research and development
+  - ...
+
+
+- Átszivárgás kontroll csoportból kezelt csoportba
+  - **per protocol:** van egy mintám amit randomizálok `A` és `B` csoportba, A protokollal azt mondjuk, hogy az adott csoportban a kezelést úgy hasonlítjuk össze, hogy ahol tényleg megtörtént és úgy történ meg ahoy le van írva, és az alapján úgyabb két-két csoportot alkotunk.
+  - **intention to treat:** nem vesszük figyelembe azt, hogy mi történt a két csoportban, csak az egyiket választjuk fő elemzésnek és összehasonlítjuk a másikkal.
+
+<img src="https://pbs.twimg.com/media/D1BTV9CWsAAiJKp.jpg" width=50% height=50%>
 
 ## EA4
 
@@ -130,7 +139,7 @@ blokkosítás:
 ### Cox regresszió
 > kihat a túlélésre: *nem*, *kor*, *stb*
 >
-> A végső arány amit kapunk  a hazard ratio
+> A végső arány amit kapunk, az a hazard ratio.
 >
 > ![hazard ratio on cox chart](https://www.researchgate.net/publication/341746353/figure/download/fig4/AS:897727533678599@1591046331701/Univariate-Cox-regression-analysis-of-differentially-expressed-autophagy-related-genes.png)
 
@@ -139,7 +148,7 @@ blokkosítás:
 >
 > mennyien halnak meg amúgy is miután hatott a kezelés
 >
-> Jól látszik, ohgy attól, hogy hamarabb detektálom nem növeli meg az életminőséget.
+> Jól látszik, hogy attól, hogy hamarabb detektálom, nem növeli meg az életminőséget.
 
 ### Immortal time bias
 > egy kezelés amire várni kell valamennyit
@@ -147,21 +156,21 @@ blokkosítás:
 > ![immortal time ](https://www.bmj.com/content/bmj/340/bmj.b5087/F2.large.jpg)
 
 ## EA5
-> Ha van egy informácink a fluktuációról akkor tudunk egy mintaelem számot szmolni, és tudjuk számolni mennyi az esély arra, hogy random-e a fluktuáció?
+> Ha van egy informácink a fluktuációról akkor tudunk egy mintaelem számot számolni, és tudjuk számolni mennyi az esély arra, hogy random-e a fluktuáció.
 
-aszignifikáns különbségek mögött fontos kérdés,hogy hány emberen végzett vizsgálat alapján.
+A szignifikáns különbségek mögött fontos kérdés, hogy hány emberen végzett vizsgálat alapján számoltunk.
 
 - p érték, elütés, adatkezelés nagyobb valószínűséggel add false pozitiveot mint a mintavételi hibák
 
 > binomiális adatgörbénél a nagyság melett a bekövetkezési esély is számít. Ha ritka eseméynt nézek akkor nem nagy a különbség kettő között törvény szerűen.
 
-- **klinikai signifikancia:** tartalmi eltérés
+- **klinikai szignifikancia:** tartalmi eltérés
 - **p:** mértékegység nélküli különbség
 
-- 3mmHG-al csökkentett magyasvérnyomás már populáció szinten eloszlása jelentős 
-- pupuláció szinten az ami egyéni szinten mérési hibaként is elkönyvelhető jelentős lehet
+- 3mmHG-al csökkentett magas vérnyomás már populáció szinten, eloszlása jelentős 
+- populáció szinten az ami egyéni szinten mérési hibaként is elkönyvelhető, jelentős lehet
 
-**konfidencia intervallum**: pontebcsléshez hozzárendeltintervallum, pl:*95%os konfidencia intervallumon az érték 95%al beleesik a keresett csoportba*
+**konfidencia intervallum**: pontbecsléshez hozzárendelt intervallum, pl:*95%os konfidencia intervallumon az érték 95%al beleesik a keresett csoportba*
 
 > *filmmel kapcsolatos kérdések:*
 > - *milyen új dolgot hallottál*
@@ -172,7 +181,9 @@ aszignifikáns különbségek mögött fontos kérdés,hogy hány emberen végze
 > - *hogy döntöttél volna szavazáskor*
 > - *mi nem hangzot el a filmben?*
 
-## EA6 ~ regression to the mean
+## EA6
+### Regression to the mean
+
 - a biológiai folyamatok fluktuiálnak
 - ezkenek lehet trendje
 - ha vágok egyet akkor az, ha egy extrém pontnál vágom el akkor azok a megigyelések amik alatta vannak közelebb lesznek az átlaghoz.
@@ -188,8 +199,8 @@ Ha egy beteg állapotot nézünk akkor az minidg egy kicsit extrém, tehát ha b
 
 A variabilitással mérhetjük az időbeli változását
 
-## placebo hatás
-> no intervention = regression to the mean"
+### Placebo hatás
+> no intervention = regression to the mean
 >
 > ha lemérek egy csoportot és nincs utána különbség akkor jelenik meg a *regression to the mean*
 >
@@ -238,37 +249,37 @@ https://vimeo.com/4796083
 
 ## EA8
 ### Klinikai kíséreletek és vizsgálatok protokolljai
-A protpkoll a kísérlet írásos terve ami mindenre megszületik a kísérlettel kapcsolatban. Ezzel lehet pályázni kísérletekhez pénzekre. 
+A protokoll a kísérlet írásos terve ami mindenre megszületik a kísérlettel kapcsolatban. Ezzel lehet pályázni kísérletekhez támogatásért. 
 
-A tervel illik transzparensnek lenni, ez íratlan szabály. 
+A tervel illik transzparensnek lenni, ez íratlan szabály.
 
-- ez a legfrisseb verzió-e?
-- milyen változtatás született a verziók között?
-- good clinical prctice filozófia követése
-  - ***good clinical prctice:*** *Egy egszésgügyi leírás csomag, amiben protokollok vannak csomagokba gyűjtve. *
-- A bevezető fontos, főleg olyanoknak akiknek nincs az adott szakmában közvetlen háttértudásuk. A  
-- mi a társadalmi fontossága? Mennyi embert érint, érinteni fog, stb?
-- hány nap kórházi ellátás, mennyi embert érint, stb?
-- mit érhetünk el?
-- hol és mennkora kontrollcsoportunk van?
-- risk assesment az etikai bizottság felé, amennyiben érintett a kérdés, pl halálozás esetén
-- trial design: minnél szélesebb legyen, hogy a végeredmény jól kezelhető legyen.
-  - kizáró kritériumok: kor, terhesség, alkoholizmus stb
-  - a beeg legyen tényleg beteg
-  - stopping rules: DMEC - TSC dönt, hogy helyes-e a kísérlet
+- Ez a legfrisseb verzió?
+- Milyen változtatás született a verziók között (change log)
+- Good clinical prctice filozófia követése
+  - ***good clinical prctice:*** *Egy egészségügyi leírás csomag, amiben protokollok vannak csomagokba gyűjtve. *
+- A bevezető fontos, főleg olyanoknak akiknek nincs az adott szakmában közvetlen háttértudásuk.
+- Mekkora a társadalmi fontossága? Mennyi embert érint, érinteni fog, stb?
+- Szükséges erőforrás becslés (hány nap kórházi ellátás, mennyi embert érint, munkaórák, stb.)
+- Mit érhetünk el?
+- Hol és mekkora kontrollcsoportunk van?
+- Risk assesment az etikai bizottság felé, amennyiben érintett a kérdés, pl. halálozás esetén.
+- Trial design: minnél szélesebb legyen, hogy a végeredmény jól kezelhető legyen.
+  - A beteg legyen tényleg beteg.
+  - Kizáró kritériumok: kor, terhesség, alkoholizmus, stb.
+  - Stopping rules: DMEC - TSC dönt, hogy helyes-e a kísérlet
     - recruitment nem jön össze
     - biztonsági okok
-  - kezelések: bemutatja mondjuk egy gyógyszer hatásait, lefolyását/stb
+  - Kezelések: bemutatja mondjuk egy gyógyszer hatásait, lefolyását, stb.
     - mi számít tényleg kezelésnek és miképp lesz mérve?
-  - végpontok: megfogalmazza a várt kimeneteket
-  - mellékhatás: 
-    - kedvezőtlen esemény (AE), nem kell közvetlen kapcsolatban legyen a kezeléssel, ok-okozati összefüggés van-e azt később döntik el. valami betegésgre jellemző eseméynt lehet, hogy nem kell feltöntetni, ezt is itt jegyzik meg.
-    - fontos kedvezőtlen esemény (SAE) azonnal jelenteni kell a hatóságoknak, akár halállal is járó mellékhatás lehet
-  - protokoll: vannak-e farmatokinetikai mérések.
+  - Végpontok: megfogalmazza a várt kimeneteket
+  - Mellékhatás: 
+    - kedvezőtlen esemény (AE), nem kell közvetlen kapcsolatban legyen a kezeléssel. Hogy ok-okozati összefüggés van-e, azt később döntik el. Valami betegésgre jellemző eseményt lehet, hogy nem kell feltüntetni, ezt is itt határozzák meg.
+    - fontos kedvezőtlen eseményt (SAE) azonnal jelenteni kell a hatóságoknak, akár halállal is járó mellékhatás lehet
+  - Protokoll: vannak-e farmatokinetikai mérések
     - ha csak nem kifejezetten ezzel foglalkozunk akkor a statisztikai szempontból nem lényeges
-- vizit leírása
-- statisztikai összefoglaló: milyen módszert alkalmaztak és hogy mérték, mi van a hiáynzó adatokkal 
-- betegek infomrálása, stb.
+- Vizit leírása
+- Statisztikai összefoglaló: milyen módszert alkalmaztak és hogy mérték, mi van a hiáynzó adatokkal 
+- Betegek informálása, stb.
 
 ### Vakosítás
 > ![](https://www.researchgate.net/profile/Marjan-Hagenzieker/publication/249313828/figure/fig1/AS:298361723867141@1448146386608/Calculation-of-odds-ratios-OR-and-relative-risk-RR-derived-from-Hels-et-al-2011.png) 
@@ -278,9 +289,9 @@ A tervel illik transzparensnek lenni, ez íratlan szabály.
 Különböző szórások összehasonlítása:
 ![](https://www.nlm.nih.gov/nichsr/stats_tutorial/images/Section2Module7HighLowStandardDeviation.jpg)![](https://cdn.scribbr.com/wp-content/uploads/2020/09/Job-satisfaction-ratings-of-three-groups.svg)
 
-> Első szintű vakosítás: a beteg ne tudjon arról mit kap
+> Első szintű vakosítás: a beteg ne tudjon arról, hogy mit kap.
 > 
-> Kettős vak a vizsgálat: a gyógyszertátban aki átadja a gógyszert ne tudja mit ad át! De az orvos, és a kezelő szeélyzet se tudja
+> Kettős vak a vizsgálat: a gyógyszertátban aki átadja a gógyszert ne tudja mit ad át, az orvos, és a kezelő személyzet se tudja, hogy a beteg mit kap.
 > 
 > Hármas vakosítás: a statisztikus se tudja ki milyen csoporthoz tartozik.
 
