@@ -73,9 +73,9 @@ blokkosítás:
 > - majdnem 700 amerikában élő katolikus apáca felajánlotta, hogy az agyukat szövetttani vizsgálatoknak ki lehet tenni. Ezáltla egy homogén csport, a vizsgálat elindult és összehasonlították neuropatológiai szüvetben
 > - Ez egy esetkontroll vizsgálat, retrospektív, cohorttal.
 >
-> Találtak olyan eseteket akinkek erős alzheimerük volt de a szövetük majdnem ép volt, de volt akinek nem volt ép és nem voltak tünetei.
+> Boncolás után találtak olyan eseteket ahol erős Alzheimer társult ép agyi szövetekkel, illetve erősen roncsolt szövetek előzetes tünetek nélkül.
 >
-> Korrleációt találtak szókincskészlettel és ezek alapján akinek gazdagabb szókincse volt később jelentkeztek nálaa tünetek.
+> Korrleációt találtak szókincskészlettel: ezek alapján akinek gazdagabb szókincse volt később jelentkeztek nála tünetek.
 
 **Torzítások:**
 - az időbeli egymásutániságot az ember ok okozati dolognak hajlamos megélni
