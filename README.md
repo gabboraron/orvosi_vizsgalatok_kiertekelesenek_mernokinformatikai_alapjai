@@ -37,7 +37,7 @@
 
 **Confounding**
 
-![cofounding](https://www.healthknowledge.org.uk/sites/default/files/documents/elearning/epidemiologyp/rcbces/Exposure%20Outcome.jpg)
+<img src="https://www.healthknowledge.org.uk/sites/default/files/documents/elearning/epidemiologyp/rcbces/Exposure%20Outcome.jpg" width=50% height=50%>
 - Cofounder: expozíciót és kimenetet is befolyásoló tényező
 - Predictor: csak a kimenetre hat (a csoportok randomizációja miatt)
 - Cofounding-probléma: Ha azt szertnénk nézni, hogy a császármetszés milyen kapcsolatban áll a születendő gyermek I. típusú diabéteszével? Ha cserélgetjük ezeket akkor is megfeleltethetőek egymásnak.
@@ -95,11 +95,12 @@ blokkosítás:
 
 **Ökonómiai tanulmányok:** Két azonos területen mért adat összehasonlítása, *pl: GDP - egészségügy / országokra lebontva*
 
-![hierarcy of studies](https://s2.studylib.net/store/data/005488388_1-d55c7bb53c27169c2e8c7771914750a2.png)
+<ims src="https://s2.studylib.net/store/data/005488388_1-d55c7bb53c27169c2e8c7771914750a2.png" width=50% height=50%>
 
 ### Gyógyszerfejlesztés fázisai
-![phase of drug  development](https://www.phrma.org/-/media/Project/PhRMA/PhRMA-Org/PhRMA-Org/Teaser-Image/Clinical-Trial-Chart.jpg?w=768&hash=847BFF91FAFFF09919D099FC8295AE18)
-- Pre-clinical research and development
+<img src="https://www.phrma.org/-/media/Project/PhRMA/PhRMA-Org/PhRMA-Org/Teaser-Image/Clinical-Trial-Chart.jpg?w=768&hash=847BFF91FAFFF09919D099FC8295AE18" width=50% height=50%>
+
+Pre-clinical research and development
   - **1. fázis**
     - biztonságos-e a készítmény
     - kontrollált
@@ -131,29 +132,25 @@ blokkosítás:
 
 ## EA4
 
-![kaplan meier plot censoring](https://miro.medium.com/max/1400/1*ATbW_NU5GMtTaCCPpfkzEA.png)![kaplan meier plot censoring](https://www.researchgate.net/profile/Avijit-Hazra-2/publication/326232846/figure/fig2/AS:666983502737413@1536032667905/A-basic-Kaplan-Meier-survival-plot-That-censoring-is-indicated-in-this-plot-by-small.png)
-
-
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Km_plot.jpg/250px-Km_plot.jpg)
+### Kaplan-Meier plot, censoring
+<img src="https://miro.medium.com/max/1400/1*ATbW_NU5GMtTaCCPpfkzEA.png" width=50% height=50%>
 
 ### Cox regresszió
 > kihat a túlélésre: *nem*, *kor*, *stb*
 >
 > A végső arány amit kapunk, az a hazard ratio.
->
-> ![hazard ratio on cox chart](https://www.researchgate.net/publication/341746353/figure/download/fig4/AS:897727533678599@1591046331701/Univariate-Cox-regression-analysis-of-differentially-expressed-autophagy-related-genes.png)
+
+<img src="https://www.researchgate.net/publication/341746353/figure/download/fig4/AS:897727533678599@1591046331701/Univariate-Cox-regression-analysis-of-differentially-expressed-autophagy-related-genes.png" width=50% height=50%>
 
 ### Lead time bias
-> ![Lead time chart](https://i2.wp.com/first10em.com/wp-content/uploads/2018/06/777px-Lead_time_bias.png?fit=777%2C224&ssl=1)
->
+<img src="https://i2.wp.com/first10em.com/wp-content/uploads/2018/06/777px-Lead_time_bias.png?fit=777%2C224&ssl=1" width=50% height=50%>
 > mennyien halnak meg amúgy is miután hatott a kezelés
 >
 > Jól látszik, hogy attól, hogy hamarabb detektálom, nem növeli meg az életminőséget.
 
 ### Immortal time bias
 > egy kezelés amire várni kell valamennyit
->
-> ![immortal time ](https://www.bmj.com/content/bmj/340/bmj.b5087/F2.large.jpg)
+<img src="https://www.bmj.com/content/bmj/340/bmj.b5087/F2.large.jpg" width=50% height=50%>
 
 ## EA5
 > Ha van egy informácink a fluktuációról akkor tudunk egy mintaelem számot számolni, és tudjuk számolni mennyi az esély arra, hogy random-e a fluktuáció.
@@ -188,7 +185,7 @@ A szignifikáns különbségek mögött fontos kérdés, hogy hány emberen vég
 - ezkenek lehet trendje
 - ha vágok egyet akkor az, ha egy extrém pontnál vágom el akkor azok a megigyelések amik alatta vannak közelebb lesznek az átlaghoz.
 
-![](https://ars.els-cdn.com/content/image/1-s2.0-S0735109716351099-gr6.jpg)
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0735109716351099-gr6.jpg" width=50% height=50%>
 
 Ha egy beteg állapotot nézünk akkor az minidg egy kicsit extrém, tehát ha beteg akkor az ő bináris állapotát valamilyen folytonos mennyiségből származtatt bináris álllapotokra vonatkoztatjuk.
 
@@ -221,14 +218,14 @@ A variabilitással mérhetjük az időbeli változását
 > - irreleváns a hajszíne, stb
 > - releváns: a kora, elhízás, neme, stb => ez a kockázata
 >
-> a kockázata másmilyen, mint a mi áltlaunk mért populáció akkor ***nem reprezetnatív a mintánk egészségügyi szmepontból***  
+> a kockázata másmilyen, mint a mi áltlaunk mért populáció akkor ***nem reprezetnatív a mintánk egészségügyi szempontból***  
 
-***Minden statisztikai vizsgálat a vizsgált szmepont alapjn kell reprezentatív legyen.***
+***Minden statisztikai vizsgálat a vizsgált szempont alapján kell reprezentatív legyen.***
 
 Risk ratio: mekkora esélyem van a másik csoportban meggyógyulni, azaz a `treated/control`:  `megtörtént/1`
-odds ration: mekkora esélyem arra, hogy odds skálán meggyógyuljak `p/(1-p)`, azaz kiszámolom ezt a törtet mindkét csoportra majd a kettőt elosztjuk `megtörtént/(1-megtörtént)`
+Odds ratio: mekkora esélyem arra, hogy odds skálán meggyógyuljak `p/(1-p)`, azaz kiszámolom ezt a törtet mindkét csoportra majd a kettőt elosztjuk `megtörtént/(1-megtörtént)`
 
-![odds vs risk](https://assets.cureus.com/uploads/figure/file/138481/lightbox_65ee62a0db3611eaafa31b2789baa093-fig-1-odds-vs-prob.png)
+<img src="https://assets.cureus.com/uploads/figure/file/138481/lightbox_65ee62a0db3611eaafa31b2789baa093-fig-1-odds-vs-prob.png" width=50% height=50%>
 
 ARR = absolute risk reduction =  a két risket kivonom egymásból
 RD = risk differnece
@@ -239,9 +236,9 @@ Ha kontextusa más a mérésnek és a viszonyított populációnak, így más le
 
 Ha a populációban jelentős a különbésg valamilyen téren akkor jó eyélel nem lesz megfelelő egy másik populációra, *pl: ezért más a koncnetráció megy más génállományú betegekbe*
 
-A nem reprezentativitás a cska a háttérkokckázat szempontjából számít.
+A nem reprezentativitás a csak a háttérkokckázat szempontjából számít.
 
-> *zh kérdés Mi a három hatás ami megjelenhet a csoportoknál: regression to the mean, placebo hatás, kezelés hatása*
+> *zh kérdés: Mi a három hatás ami megjelenhet a csoportoknál? Regression to the mean, placebo hatás, kezelés hatása.*
 > *kivétel: interakció, más a populáció, más a kezelés*
 
 ## EA7
@@ -281,14 +278,10 @@ A tervel illik transzparensnek lenni, ez íratlan szabály.
 - Statisztikai összefoglaló: milyen módszert alkalmaztak és hogy mérték, mi van a hiáynzó adatokkal 
 - Betegek informálása, stb.
 
+### Különböző szórások összehasonlítása:
+<img src="https://www.nlm.nih.gov/nichsr/stats_tutorial/images/Section2Module7HighLowStandardDeviation.jpg" width=50% height=50%>
+
 ### Vakosítás
-> ![](https://www.researchgate.net/profile/Marjan-Hagenzieker/publication/249313828/figure/fig1/AS:298361723867141@1448146386608/Calculation-of-odds-ratios-OR-and-relative-risk-RR-derived-from-Hels-et-al-2011.png) 
->
-> kettő között egynelőség akkor áll fenn ha egy
-
-Különböző szórások összehasonlítása:
-![](https://www.nlm.nih.gov/nichsr/stats_tutorial/images/Section2Module7HighLowStandardDeviation.jpg)![](https://cdn.scribbr.com/wp-content/uploads/2020/09/Job-satisfaction-ratings-of-three-groups.svg)
-
 > Első szintű vakosítás: a beteg ne tudjon arról, hogy mit kap.
 > 
 > Kettős vak a vizsgálat: a gyógyszertátban aki átadja a gógyszert ne tudja mit ad át, az orvos, és a kezelő személyzet se tudja, hogy a beteg mit kap.
