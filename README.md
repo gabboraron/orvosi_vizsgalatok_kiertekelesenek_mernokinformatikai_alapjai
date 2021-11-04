@@ -78,11 +78,11 @@ blokkosítás:
 > Korrleációt találtak szókincskészlettel: ezek alapján akinek gazdagabb szókincse volt később jelentkeztek nála tünetek.
 
 **Torzítások:**
-- az időbeli egymásutániságot az ember ok okozati dolognak hajlamos megélni
-- az emlékezet másíhatja a tényeket
+- az időbeli egymásutániságot az ember ok-okozati összefüggésnek hajlamos értelmezni
+- az emlékezet torzíthatja a tényeket
 - számít-e hogy hol laknak a figyelt alanyok (nem, ha pl földrészekről van szó)
 - ugyanazon helyről származnak a mért adatok
-- mi az alany elő és utóélete
+- mi az alany elő- és utóélete
 - milyen nagy a populáció
 
 **Cross sectional:** a teljes populációban, nem is feltétlen a mintában hány beteg van(*prevalencia*), és hány új beteg jelenik meg (*incidencia*)?
