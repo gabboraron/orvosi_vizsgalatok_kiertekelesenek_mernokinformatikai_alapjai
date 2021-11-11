@@ -230,6 +230,8 @@ Odds ratio: mekkora esélyem arra, hogy odds skálán meggyógyuljak `p/(1-p)`, 
 ARR = absolute risk reduction =  a két risket kivonom egymásból
 RD = risk differnece
 
+Egy jó leírás: (When to use the odds ratio or the relative risk?)[https://www.semanticscholar.org/paper/When-to-use-the-odds-ratio-or-the-relative-risk-Schmidt-Kohlmann/69a8767574819102bf47572df70c0561ddc8633b/figure/1]        
+        
 A kezelés odds ratioja átvihető egyik populációról másikra!
 
 Ha kontextusa más a mérésnek és a viszonyított populációnak, így más lesz a végeredmény.
