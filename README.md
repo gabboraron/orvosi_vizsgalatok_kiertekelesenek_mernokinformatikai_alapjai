@@ -233,6 +233,7 @@ blokkosítás:
 > *Szűrővizsglatoknál gyakori*
         
 <img src="https://i2.wp.com/first10em.com/wp-content/uploads/2018/06/777px-Lead_time_bias.png?fit=777%2C224&ssl=1" width=50% height=50%>
+  
 > mennyien halnak meg amúgy is miután hatott a kezelés
 >
 > Jól látszik, hogy attól, hogy hamarabb detektálom, nem növeli meg az életminőséget.
@@ -241,6 +242,7 @@ blokkosítás:
 > per protocol jellegű
 >
 > egy kezelés amire várni kell valamennyit
+  
 <img src="https://www.bmj.com/content/bmj/340/bmj.b5087/F2.large.jpg" width=50% height=50%>
 
 ### Mérési módszerek idősoros adatoknál
@@ -312,9 +314,10 @@ A szignifikáns különbségek mögött fontos kérdés, hogy hány emberen vég
 
   
 a) *vérnyomás csökkentő gyógyszerteszthez keresek betegeket akkor ha találok olyant aki 160 Hgmm fölötti sé olyant aki alatti akkor ha az átlag 155 akkor ha legközelebb megfigyelem akkor egy része valószínűelg amgától visszaáll a keveésbé extrém értékre*
+
 c) *egyetlen beteg vérnyomásának eloszlása, ha 160 HGmm-nél egy beváalsztási kritériumot húzok akkor lehet őt épp elkaptam ennél az eloszlásnál extrémebb résznél, tehát a kevésbé extrémnél is megtalálom majd*
 
-> Ha egy beteg állapotot nézünk akkor az minidg egy kicsit extrém, tehát ha beteg akkor az ő bináris állapotát valamilyen folytonos mennyiségből származtatt bináris álllapotokra vonatkoztatjuk. =# a betegne legyen *túl* beteg és ne legyen *kicsit* beteg.
+> Ha egy beteg állapotot nézünk akkor az minidg egy kicsit extrém, tehát ha beteg akkor az ő bináris állapotát valamilyen folytonos mennyiségből származtatt bináris álllapotokra vonatkoztatjuk. => a beteg ne legyen *túl* beteg és ne legyen *kicsit* beteg.
 
 *Pl:*
 - *vérnyomás*
@@ -356,6 +359,7 @@ A variabilitással mérhetjük az időbeli változását. Ha tudok a jelenségr�
 ![consort diagram](https://www.researchgate.net/profile/Marian-Huhman/publication/267734037/figure/fig2/AS:295611229327360@1447490617016/SMART-Trial-CONSORT-diagram.png)
   
 **Risk ratio**: mekkora esélyem van a másik csoportban meggyógyulni, azaz a `treated/control`:  `megtörtént/1`
+  
 **Odds ratio**: mekkora esélyem arra, hogy odds skálán meggyógyuljak `p/(1-p)`, azaz kiszámolom ezt a törtet mindkét csoportra majd a kettőt elosztjuk `megtörtént/(1-megtörtént)`
 
 <img src="https://assets.cureus.com/uploads/figure/file/138481/lightbox_65ee62a0db3611eaafa31b2789baa093-fig-1-odds-vs-prob.png" width=50% height=50%>
@@ -436,3 +440,36 @@ A tervel illik transzparensnek lenni, ez íratlan szabály.
 - 200 nem számít
 - 2001 számít
 
+  
+## zh kidolgozások
+Miben más az orvostudománnyal kapcsolatos kutatás más tudományágakhoz képest?   
+> nem olyan értelemben kell reprezentatív legyen mint a szokásos gazdasági statisztikai modelleknél
+
+Mit jelent a p-érték és mit jelent a 95%-os konfidencia intervallum?
+> - p: mértékegység nélküli különbség; annak a mértékegysége, hogy a H0 *mennyire véletlen?*
+> - konfidencia intervallum: megbízhatósági szint; pontbecsléshez hozzárendelt intervallum
+
+Mit jelent, ha a p érték = 0.001 és ha pl.:0.439?
+> - `p = 0.001` - 0.1% esélye van annak, hogy H0 igaz
+> - `p = 0.439` - 43.9% esélye van, hogy H0 igaz
+>
+> A szignifikancia szintet ehhez hozzáadhatjuk esetleg, de az egy trashold ami +/- ingadozáskénét értendő
+
+placebo hatás és regression to the mean példák
+> placebo - anynyira erős a hit a gyógyszerben, hogy idieglenes javulást mutat
+>
+> regression to the mean - ha egy extrém pontnál vágom el akkor azok a megfigyelések amik alatta vannak közelebb lesznek az átlaghoz; a test különböző mérhető adatai amúgy is fluktuálnak, ha egyszer megmérem a vérnyomást és átlag fölötti a következő alaklaommal valószínűelg átlaghoz közelebbi lesz.
+> 
+> - Visszatérés az átlaghoz 
+> - Visszatérés az átlaghoz + placebo 
+> - Visszatérés az átlaghoz + placebo + kezelés 
+
+mi a confounding, pl?
+> expozíciót és kimenetet is befolyásoló tényező megjelenése, ami akár hatással is lehetne és akár zt is vizsgálahatnánk de nem az a vizsgáalt tárgya.
+>
+> *pl: nun studynál minden amit az apácák fogyasztottak pluszban, vagy napi rutinjuk vol, vagy ha azt szertnénk nézni, hogy a császármetszés milyen kapcsolatban áll a születendő gyermek I. típusú diabéteszével? Ha cserélgetjük ezeket akkor is megfeleltethetőek egymásnak.*
+
+sztohasztikus értékek: statisztika, stb
+> a következményei nem azonnaliak; ismeretlen mechanikus komponensek: nehezen mérhető, nehezen tanulmányozható területeken, pl. biokémia, erős hitvilág
+>
+>következmények: biztonság, monitorozás
