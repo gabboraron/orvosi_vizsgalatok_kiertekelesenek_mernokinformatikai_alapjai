@@ -238,12 +238,51 @@ blokkosítás:
 > Jól látszik, hogy attól, hogy hamarabb detektálom, nem növeli meg az életminőséget.
 
 ### Immortal time bias
-> per protocoljelegű
+> per protocol jellegű
 >
 > egy kezelés amire várni kell valamennyit
 <img src="https://www.bmj.com/content/bmj/340/bmj.b5087/F2.large.jpg" width=50% height=50%>
 
-        
+### Mérési módszerek idősoros adatoknál
+> - **nominális skála:** legtöbbször string, valaminek a neve
+> - **ordinális:** valmai alapján sorrendbe tehető string *nagyváros, kisváros, község, falu, tanya*
+> - **intervallum:** számszerű, sorrendbe tehető és a kivonás értlemezett művelet
+> - **arány:** mint az inteervallum csak van 0 érték 
+
+### hogy mérjük az egészséget? - végpontok
+> **betegség**: az egészség hiánya
+>
+> egyéni szemlélet alapján: *ha én betegnek érzem magam de orvoshoz nem kell mennem*
+> társadalmi szempont alapján: *ha egészségügyi kapacitást, erforrást foglalok*
+>
+> **életjelek**: olyan mérhető jelek amik ha szélsőséges értéket érnek el, *pl 0* akkor azt modnjuk nincs élet. Ilyenek a: vérnyomás, kor, tömeg, BMI
+>   - arány/intervalllum skála
+>   - nem jó dolog kategorizálni, hiszen ha határt vonunk 30-nál akkor 29.9999 és 30.00001 között a kategória miatt akkora különbség lesz mintha 29.9999 és 36 között
+>
+> **biomarkerek**: olyan sejtek amikkel képesek vagyunk egy betegséget detektálni.
+>   - drága
+>   - nem bináris érétkű, nagy skkálán mozog
+>   - prediktorok és végpontok egyszerre
+>   - *pl: spirometria*
+>  
+> **beteg által rögzített végpontok:** 
+>   - frissen merült fel mint nézőpont
+>   - saját bevalláson alapuló
+>   - Quality of Life 
+>     - 5D: mennyire van fájdalma, mennyire képes önálló életre, mennyire jó a mentálsi állapota, mennyire jól alszok, mennyire érzi jól magát és szocializálódik
+>     - [negatív érték, 1+]
+>   - QALY - Quality Adjusted Life Year életminőséggel súlyozott életév: `QoL-el kapott szám * elvesztett_vagy_megnyert_eletevek`
+>   - Hamilton - D hasonló mint a QALY
+>   - VAS ~ Visual Angle Scale: egy vonalzón mutassa meg a beteg mennyire fáj
+>   - [COMET ~ Core Outcome Mesuerements](https://www.comet-initiative.org) in Effectveness Trials: szakértők és betegek/hozzátartozók rendelnek félelemeket/tüneteket az adott beteséghez
+>  
+> **tünetek:**
+>  - fronttól a vérnyomás változik
+>  - napi ciklus
+>  - havi ciklus
+>  - biomarkerek false adatai *(lyme kór a kezelés után is megőrzi a biomarkerek a betegség jegyeit)*
+>  - BMI éves trendje -> télen hízunk
+  
 ## EA5
 > Ha van egy informácink a fluktuációról akkor tudunk egy mintaelem számot számolni, és tudjuk számolni mennyi az esély arra, hogy random-e a fluktuáció.
 
@@ -256,46 +295,46 @@ A szignifikáns különbségek mögött fontos kérdés, hogy hány emberen vég
 - **klinikai szignifikancia:** tartalmi eltérés
 - **p:** mértékegység nélküli különbség
 
-- 3mmHG-al csökkentett magas vérnyomás már populáció szinten, eloszlása jelentős 
+- 3Hgmm-el csökkentett magas vérnyomás már populáció szinten, eloszlása jelentős 
 - populáció szinten az ami egyéni szinten mérési hibaként is elkönyvelhető, jelentős lehet
 
-**konfidencia intervallum**: pontbecsléshez hozzárendelt intervallum, pl:*95%os konfidencia intervallumon az érték 95%al beleesik a keresett csoportba*
-
-> *filmmel kapcsolatos kérdések:*
-> - *milyen új dolgot hallottál*
-> - *hogyan és mi alapján történik döntéshozatal 1-1 kezelés kapcsán*
-> - *hogyan zajlik döntéshozatal MAgarországon*
-> - *mi az leőnye/hátránya*
-> - *milyne kezelés lehet kiugróan költségkímélő*
-> - *hogy döntöttél volna szavazáskor*
-> - *mi nem hangzot el a filmben?*
+**konfidencia intervallum**: pontbecsléshez hozzárendelt intervallum, pl:*95%os konfidencia intervallumon az érték 95%-al beleesik a keresett csoportba*
 
 ## EA6
 ### Regression to the mean
+- a biológiai folyamatok fluktuálnak
+- ezeknek lehet trendje
+- van egy időbeli eloszlása
+- ha vágok egyet egy extrém pontnál akkor ha várok egy bizonyos ideig akkor közelíteni fog mindkét irányból =>ha egy extrém pontnál vágom el akkor azok a megfigyelések amik alatta vannak közelebb lesznek az átlaghoz.
+- de ha véletlen szerűen vágom el akkor gondolhatomm, hogy az egy extrém pont, sőt feltételezhetem, hogy azt kerestem!
 
-- a biológiai folyamatok fluktuiálnak
-- ezkenek lehet trendje
-- ha vágok egyet akkor az, ha egy extrém pontnál vágom el akkor azok a megigyelések amik alatta vannak közelebb lesznek az átlaghoz.
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0735109716351099-gr6.jpg" width=100% height=auto>
 
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0735109716351099-gr6.jpg" width=50% height=50%>
+  
+a) *vérnyomás csökkentő gyógyszerteszthez keresek betegeket akkor ha találok olyant aki 160 Hgmm fölötti sé olyant aki alatti akkor ha az átlag 155 akkor ha legközelebb megfigyelem akkor egy része valószínűelg amgától visszaáll a keveésbé extrém értékre*
+c) *egyetlen beteg vérnyomásának eloszlása, ha 160 HGmm-nél egy beváalsztási kritériumot húzok akkor lehet őt épp elkaptam ennél az eloszlásnál extrémebb résznél, tehát a kevésbé extrémnél is megtalálom majd*
 
-Ha egy beteg állapotot nézünk akkor az minidg egy kicsit extrém, tehát ha beteg akkor az ő bináris állapotát valamilyen folytonos mennyiségből származtatt bináris álllapotokra vonatkoztatjuk.
+> Ha egy beteg állapotot nézünk akkor az minidg egy kicsit extrém, tehát ha beteg akkor az ő bináris állapotát valamilyen folytonos mennyiségből származtatt bináris álllapotokra vonatkoztatjuk. =# a betegne legyen *túl* beteg és ne legyen *kicsit* beteg.
 
 *Pl:*
 - *vérnyomás*
 - *depresszió*
 - *fájdalom*
 
-A variabilitással mérhetjük az időbeli változását
+A variabilitással mérhetjük az időbeli változását. Ha tudok a jelenségről, és egy szeméylnél tudom a varianciát akkor azt tudom, hogy mennyire variábilis a pulációra.
 
 ### Placebo hatás
+> alábecsült a klinikai teszteknél : egy kezelésbe vetett hitem miatt kiváltott hatás
+> 
 > no intervention = regression to the mean
 >
-> ha lemérek egy csoportot és nincs utána különbség akkor jelenik meg a *regression to the mean*
+> ha lemérek egy átlagtól eltérő csoportot és később újramérem akkor utána az átlaghoz fognak húzni, a különbség ami ekkor jelenik meg a *regression to the mean*
 >
-> ha placebo kontroll csoportot adok meg akkor a *placebo hatás*hoz hozzáadódik a *regression to the mean*
+> **ha placebo kontroll csoportot adok meg akkor a *placebo hatás*hoz hozzáadódik a *regression to the mean***
 >
 > ha van egy kezelt kontroll csoport akor azoknál a *kezelés hatása* is megjelenik
+  
+  **=> egyszerre jelenik meg a placeb, akezelés éa sregression to the mean**
 
 ### fontos-e a reprezentativitás?
 - nem kell reprezentatív legyen a minta ahhoz, hogy egy kísérleti eredmény számszerűleg valid legyen**!**
@@ -314,8 +353,10 @@ A variabilitással mérhetjük az időbeli változását
 
 ***Minden statisztikai vizsgálat a vizsgált szempont alapján kell reprezentatív legyen.***
 
-Risk ratio: mekkora esélyem van a másik csoportban meggyógyulni, azaz a `treated/control`:  `megtörtént/1`
-Odds ratio: mekkora esélyem arra, hogy odds skálán meggyógyuljak `p/(1-p)`, azaz kiszámolom ezt a törtet mindkét csoportra majd a kettőt elosztjuk `megtörtént/(1-megtörtént)`
+![consort diagram](https://www.researchgate.net/profile/Marian-Huhman/publication/267734037/figure/fig2/AS:295611229327360@1447490617016/SMART-Trial-CONSORT-diagram.png)
+  
+**Risk ratio**: mekkora esélyem van a másik csoportban meggyógyulni, azaz a `treated/control`:  `megtörtént/1`
+**Odds ratio**: mekkora esélyem arra, hogy odds skálán meggyógyuljak `p/(1-p)`, azaz kiszámolom ezt a törtet mindkét csoportra majd a kettőt elosztjuk `megtörtént/(1-megtörtént)`
 
 <img src="https://assets.cureus.com/uploads/figure/file/138481/lightbox_65ee62a0db3611eaafa31b2789baa093-fig-1-odds-vs-prob.png" width=50% height=50%>
 
@@ -337,6 +378,15 @@ A nem reprezentativitás a csak a háttérkokckázat szempontjából számít.
 
 ## EA7
 https://vimeo.com/4796083
+
+> *filmmel kapcsolatos kérdések:*
+> - *milyen új dolgot hallottál*
+> - *hogyan és mi alapján történik döntéshozatal 1-1 kezelés kapcsán*
+> - *hogyan zajlik döntéshozatal MAgarországon*
+> - *mi az leőnye/hátránya*
+> - *milyne kezelés lehet kiugróan költségkímélő*
+> - *hogy döntöttél volna szavazáskor*
+> - *mi nem hangzot el a filmben?*
 
 ## EA8
 ### Klinikai kíséreletek és vizsgálatok protokolljai
